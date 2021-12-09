@@ -1,0 +1,61 @@
+.title{
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.subtitle1{
+    padding-right: 400px;
+}
+
+.subtitles{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:gray;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.menus{
+    background-color: lightgray;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.menu1{
+    padding-right: 200px;
+}
+
+.menu2{
+    padding-right: 200px;
+}
+
+.menu3{
+    padding-right: 200px;
+}
+
+.floatGrey1{
+    padding: 120px;
+    margin: 15px;
+    border: 1px transparent;
+    background-color: lightgray;
+    float: left;
+}
+
+.floatGrey2{
+    padding: 120px;
+    margin: 15px;
+    border: 1px transparent;
+    background-color: lightgray;
+    float: left;
+}
+
+footer{
+    background-color: lightgray;
+    padding: 20px;
+}

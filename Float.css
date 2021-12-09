@@ -1,0 +1,15 @@
+.float1{
+    padding: 50px;
+    border: 1px transparent;
+    background-color: aquamarine;
+    border-radius: 5px;
+    float: left;
+}
+
+.float2{
+    padding: 50px;
+    border: 1px transparent;
+    background-color: aquamarine;
+    border-radius: 5px;
+    float: right;
+}
