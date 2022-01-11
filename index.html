@@ -1,29 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- *****************************************************
+NOMBRE:Victor
+APELLIDOS:Diaz del Hoyo
+*********************************************************** -->
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Delicias Kitchen</title>
 </head>
+
 <body>
     <header>
-        <h1>M04 Lenguajes de marcas</h1>
-        <h3>Años 2021/2022</h3>
-        <h2>ITB: DAWe, DAMr, DAMi</h2>
-        <h4>Aprenderemos Xml, HTML, CSS Y JS</h4>
-        <nav>
+        <figure class="headerPicture">
+            <img src="imagenes/Logo-Delicias.png" alt="Logo Delicias">
+        </figure>
+    </header>
+
+    <nav class="upMenu">
+        <ul>
+            <li>
+                <a href="index.html">Inicio 🏠</a>
+            </li>
+            <li>
+                <a href="extra/aboutme.html">Sobre mí 🧍</a>
+            </li>
+            <li>
+                <a href="listado/listado.html">Recetas 🥕</a>
+            </li>
+            <li>
+                <a href="contacto/contacto.html">Contacto 📞</a>
+            </li>
+            <li>
+                <a href="extra/otherstuff.html">Otras cosas 🌠</a>
+            </li>
+        </ul>
+    </nav>
+
+    <aside>
+        <h4>Sobre mi</h4>
+
+        <figure class="isagil">
+            <img src="imagenes/isagil.png" alt="Isa Gil">
+        </figure>
+
+        <p class="asideUpperText">Hola, bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas
+            y veganas favoritas...</p>
+
+        <figure class="book">
+            <h4>Suscríbete a mi blog</h4>
+            <img src="imagenes/libro.png" alt="Libro">
+            <p class="asideInBlockBottomText">Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.
+            </p>
+        </figure>
+
+        <h4 class="asideSignMeIn">Apúntame</h4>
+
+    </aside>
+
+    <section>
+        <div class="arch-section">
+            <figure>
+                <img src="imagenes/Pasta.jpg" alt="Pasta">
+            </figure>
+            <h4 class="recipeName">
+                <a href="receta/receta.html">Pasta con salsa de coliflor y pimienta de Jamaica</a>
+            </h4>
+            <p class="recipeDate">13 marzo, 2019</p>
+            <p class="standardLeftText">Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible!
+                Está elaborada con coliflor y con
+                otros ingredientes vegetales, que la convierten en…</p>
+        </div>
+
+        <div class="arch-section">
+            <figure>
+                <img src="imagenes/galletas.jpg" alt="Galletas">
+            </figure>
+            <h4 class="recipeName">Galletas de avena, rosa y lima</h4>
+            <p class="recipeDate">12 febrero, 2019</p>
+            <p class="standardLeftText">Galletitas para San Valentín? Estas galletas ricas y crujientes, elaboradas con
+                avena y con un rico sabor a rosa y
+                lima son perfectas para celebrarlo!</p>
+        </div>
+
+    </section>
+    <section>
+        <div class="arch-section">
+            <figure>
+                <img src="imagenes/mijo.jpg" alt="Mijo">
+            </figure>
+            <h4 class="recipeName">Mijo cremoso con lentejas, hortalizas y shiitake</h4>
+            <p class="recipeDate">1 febrero, 2019</p>
+            <p class="standardLeftText">Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que necesitas
+                para templar el cuerpo este
+                invierno! Delicioso y fácil!</p>
+        </div>
+
+        <div class="arch-section">
+            <figure>
+                <img src="imagenes/calabacines.jpg" alt="Calabacines">
+            </figure>
+            <h4 class="recipeName">Calabacines rellenos de arroz negro y calabaza</h4>
+            <p class="recipeDate">18 diciembre, 2018</p>
+            <p class="standardLeftText">Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la
+                última receta que publico en el
+                blog en…</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <nav class="footerList">
             <ul>
                 <li>
-                    <a href="Ej03.html">Ejercicio 3: Estructura básica</a>
+                    <a href="">Facebook</a>
                 </li>
                 <li>
-                    <a href="Ej04.html">Ejercicio 4: Textos y Multimedia</a>
+                    <a href="">Twitter</a>
                 </li>
                 <li>
-                    <a href="Ej05.html">Ejercicio 5: Tablas</a>
+                    <a href="">Instagram</a>
+                </li>
+                <li>
+                    <a href="">Pinterest</a>
+                </li>
+                <li>
+                    <a href="">Email</a>
+                </li>
+                <li>
+                    <a href="">RSS</a>
                 </li>
             </ul>
         </nav>
-    </header>
+    </footer>
 </body>
+
 </html>

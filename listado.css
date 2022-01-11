@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://image.freepik.com/free-photo/healthy-vegetables-old-dark-background_1150-38000.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.upMenu{
+    background-color: rgb(184, 233, 111);
+}
+
+.listadoNeatNCleanList{
+    background-color: rgb(184, 233, 111);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.listRecipeTitle{
+    color: green;
+    text-align: left;
+    margin-left: 2.5%;
+}
+
+.listRecipeTitle a:hover{
+    color: green;
+}
+
+.listRecipeStat{
+    text-align: left;
+    margin-left: 2.5%;
+}
+
+.entryN044{
+    text-align: left;
+    margin-left: 2.5%;
+}
+
+.entryN044 a:hover{
+    color: red;
+}
+
+.divisionLine{
+    border: black solid 1px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.pagination {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .pagination a:hover{
+      background-color: lawngreen;
+  }
